@@ -71,9 +71,6 @@ def qr_code_camera_scanner():
         cv2.putText(frame, "Hedef Vurus Alani", (x1 + 10, y2 - 15), 
                     cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1)
 
-        # Görseldeki Etiketler
-        cv2.putText(frame, "%20 Yatay", (10, h // 2), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
-        cv2.putText(frame, "%12 Dikey", (w // 2 - 30, y1 - 15), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
 
         cv2.imshow('QR Mission UI - Final Form', frame)
 
